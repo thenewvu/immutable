@@ -1,0 +1,27 @@
+{
+  "name": "@thenewvu/immutable",
+  "version": "1.0.0",
+  "description": "A minimal JS library to modify objects immutably",
+  "main": "dist.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "build": "babel main.js --out-file dist.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenewvu/immutable.git"
+  },
+  "author": "Vu Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thenewvu/immutable/issues"
+  },
+  "homepage": "https://github.com/thenewvu/immutable#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^21.2.1"
+  }
+}
